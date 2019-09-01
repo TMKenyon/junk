@@ -31,7 +31,6 @@ x=seq(1, 10, len=10)
 y=40*2 + rnorm(10,0,5)
 plot(x,y)
 summary(y)
-summary(x)
 
 # Now, say you are happy with your code, committ it.
 # Select the file, the 'github_repositaries' and tick it, then click 'Commit'
