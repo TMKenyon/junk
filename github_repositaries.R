@@ -20,6 +20,23 @@
 # git config --global user.name "Tania M Kenyon"
 # git config --global user.email "tania.kenyon@uqconnect.edu.au"
 
+# Then create a New Project and make sure you tick 'Create a git repositery'
+# Then save an R script (this one - 'github_repositaries') and then
+# in the Git tab (next to History) it will show the R script and the status
+# If the status is ?? it means the files are 'untracked'
+
+# It changes your documents, your files, to hexcode.
+
 x=seq(1, 10, len=10)
 y=40*2 + rnorm(10,0,5)
 plot(x,y)
+summary(y)
+
+# Now, say you are happy with your code, committ it.
+# Select the file, the 'github_repositaries' and tick it, then click 'Commit'
+# type in the comments what you have done, e.g 'This is the initial commit' or
+# added analsis of x, y, z.
+
+# ****A git repositary is a .git folder***
+# So now we have a git repositary with a 'HEAD' and a branch - 'MASTER'
+
