@@ -61,5 +61,13 @@ summary(y)
 # was silly and you want to delete it all.
 # 3. Revert - Jumps back in time.
 
+# To Checkout - go to shell and type: git checkout 4fe70
+# Now the summary.R file doesn't exist and we are looking at an old version.
+# Agree with RStudio to close that file.
+# To get back to the future (the latest file) type: git checkout master
+# OR go to the dropdown arrow in Git tab and click on master
+
+
+
 
 
