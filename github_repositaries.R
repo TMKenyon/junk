@@ -25,8 +25,6 @@
 # in the Git tab (next to History) it will show the R script and the status
 # If the status is ?? it means the files are 'untracked'
 
-# It changes your documents, your files, to hexcode.
-
 x=seq(1, 10, len=10)
 y=40*2 + rnorm(10,0,5)
 plot(x,y)
@@ -39,4 +37,29 @@ summary(y)
 
 # ****A git repositary is a .git folder***
 # So now we have a git repositary with a 'HEAD' and a branch - 'MASTER'
+
+# So the R script just has the HEAD (latest), 
+# but the git file has all of the history
+
+# Commits are cheap - commit often!!
+
+# Tagging commits:
+
+# It changes your documents, your files, to hexcode.
+# You can 'tag' a commit so that it has a proper name instead of a hex code.
+# e.g. if you wanted to call it V1 when you have submitted a paper with 
+# the current analysis.
+# Go to the cog symbol in 'Git' tab, open 'Shell'.
+# Type: git tag -a 'V.1' -m 'Version 1' 
+# Replace 'V.1' with whatever (no spaces allowed)
+# Replace 'Version 1' with whatever.
+
+# OPTIONS
+
+# 1. Checkout - moves the head back to a previous point and commits from then on in another direction (branch)
+# 2. Reset - VERY VIOLENT. you know no-one has committed on top of what you've done and it 
+# was silly and you want to delete it all.
+# 3. Revert - Jumps back in time.
+
+
 
